@@ -1,3 +1,5 @@
+<app-formulario-socio></app-formulario-socio>
+
 <div class="row">
         <div class="col-12">
 
@@ -18,7 +20,7 @@
                     </span>
                     <input type="text" class="form-control form-control-sm" placeholder="Buscar">
                   </div>
-                  <button type="button" class="btn btn-sm btn-success btn-icon d-flex align-items-center mb-0 me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <button (click)="agregar()" type="button" class="btn btn-sm btn-success btn-icon d-flex align-items-center mb-0 me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <i class="fa-solid fa-plus" style="font-size: 16px;"></i>
                     &nbsp;<span class="btn-inner--text">Agregar</span>
                   </button>
@@ -51,7 +53,7 @@
                       <td>
                         <span class="text-sm font-weight-normal">JULIO</span>
                       </td> 
-                      <td class="align-middle">
+                      <td class="align-middle d-flex justify-content-end">
                         <button type="button" class="btn btn-outline-primary mb-0 me-2" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-magnifying-glass"></i></button>
                         <button type="button" class="btn btn-outline-warning mb-0 me-2" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-pencil"></i></button>
                         <button type="button" class="btn btn-outline-danger mb-0 me-2" data-bs-toggle="modal" data-bs-target="#modaleliminar"><i class="fa-solid fa-trash"></i></button>

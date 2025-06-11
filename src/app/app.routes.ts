@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { Socio } from './socio/components/socio/socio';
 import { ReporteMensualidades } from './socio/components/reporte-mensualidades/reporte-mensualidades';
+import { ListadoSocio } from './socio/components/socio/listado-socio/listado-socio';
 
 export const routes: Routes = [
-  { path: '', component: Socio },
-  { path: 'socio', component: Socio },
+  { path: '', component: ListadoSocio },
+  { path: 'socio', component: ListadoSocio },
   { path: 'reportemensualidades', component: ReporteMensualidades },
   { path: '**', redirectTo: '' }
 ];

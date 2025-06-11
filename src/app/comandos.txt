@@ -1,0 +1,5 @@
+npm install jquery --save
+npm install bootstrap
+
+ng g c socio/components/socio/listado-socio --skip-tests
+ng g c socio/components/socio/formulario-socio --skip-tests
