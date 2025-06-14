@@ -3,3 +3,7 @@ npm install bootstrap
 
 ng g c socio/components/socio/listado-socio --skip-tests
 ng g c socio/components/socio/formulario-socio --skip-tests
+
+ng g c practica/components/practica1/calculadora --skip-tests
+ng g c practica/components/practica2/edades --skip-tests
+ng g c practica/components/practica3/frutas --skip-tests

@@ -1,0 +1,27 @@
+<div class="row">
+
+    <div>
+
+        <div class="mb-3">
+          <label class="form-label">Número:</label>
+          <input [(ngModel)]="numero1" type="text" class="form-control" placeholder="Ingrese un número">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Número:</label>
+          <input [(ngModel)]="numero2" type="text" class="form-control" placeholder="Ingrese un número">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Resultado:</label>
+          <label class="form-control">{{ resultado }}</label>
+        </div>
+
+        <button (click)="sumar();" class="btn btn-primary">SUMAR</button>
+        <button (click)="restar();" class="btn btn-primary">RESTAR</button>
+        <button (click)="multiplicar();" class="btn btn-primary">MULTIPLICAR</button>
+        <button (click)="dividir();" class="btn btn-primary">DIVIDIR</button>
+
+    </div>
+
+</div>

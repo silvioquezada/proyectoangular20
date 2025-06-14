@@ -1,0 +1,20 @@
+<div class="row">
+
+    <div>
+
+        <div class="mb-3">
+          <label class="form-label">Edad:</label>
+          <input [(ngModel)]="edad" type="text" class="form-control" placeholder="Ingrese una edad">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Resultado:</label>
+          <label *ngIf="resultado=='mayor'" class="text-primary form-control">Mayor Edad</label>
+          <label *ngIf="resultado=='menor'"class="text-danger form-control">Menor de Edad</label>
+        </div>
+
+        <button (click)="calcular();" class="btn btn-primary">CALCULAR</button>
+
+    </div>
+
+</div>
