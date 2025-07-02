@@ -7,3 +7,8 @@ ng g c socio/components/socio/formulario-socio --skip-tests
 ng g c practica/components/practica1/calculadora --skip-tests
 ng g c practica/components/practica2/edades --skip-tests
 ng g c practica/components/practica3/frutas --skip-tests
+
+ng g c estudiante/components/listar --skip-tests
+ng g c estudiante/components/formulario --skip-tests
+
+ng g s estudiante/services/estudiante --skip-tests

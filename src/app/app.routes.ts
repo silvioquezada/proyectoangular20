@@ -4,6 +4,7 @@ import { ListadoSocio } from './socio/components/socio/listado-socio/listado-soc
 import { Calculadora } from './practica/components/practica1/calculadora/calculadora';
 import { Edades } from './practica/components/practica2/edades/edades';
 import { Frutas } from './practica/components/practica3/frutas/frutas';
+import { Listar } from './estudiante/components/listar/listar';
 
 export const routes: Routes = [
   { path: '', component: ListadoSocio },
@@ -12,5 +13,6 @@ export const routes: Routes = [
   { path: 'calculadora', component: Calculadora },
   { path: 'edades', component: Edades },
   { path: 'frutas', component: Frutas },
+  { path: 'estudiantes', component: Listar },
   { path: '**', redirectTo: '' }
 ];
